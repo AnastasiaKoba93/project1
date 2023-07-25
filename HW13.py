@@ -27,6 +27,18 @@ print(json_string)
 
 
 try:
+    a = 10
+    b = 0
+    result = a / b
+    print(f"Result: {result}")
+except ZeroDivisionError:
+    print("Division by zero is impossible .")
+except Exception as e:
+    print(f"Error: {e}")
+
+
+
+try:
     my_list = [1, 2, 3, 4, 5]
     index = 10
     value = my_list[index]
