@@ -87,7 +87,7 @@ class TestMathFunctions(unittest.TestCase):
             square_root(-9)
 
     def test_square_root_of_float_number(self):
-        self.assertAlmostEqual(square_root(16.5), 4.0625, places=4)
+        self.assertAlmostEqual(square_root(16.5), 4.062, places=4)
 
 
 if __name__ == '__main__':
